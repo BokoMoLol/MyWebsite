@@ -5,4 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     welcomeButton.addEventListener('click', function() {
         alert('Thanks for visiting! Have a great day!');
     });
+
+    const myLink = document.querySelector('a[href="https://www.bokosfirstwebsite.com"]');
+    myLink.addEventListener('click', function() {
+        console.log('Link to Boko\'s First Website was clicked');
+    });
 });
